@@ -1,8 +1,8 @@
 .box {
-  max-width: 1024px;
   position: relative;
+  max-width: 1024px;
   margin: 0 auto;
-  font-family: 'Niramit', sans-serif;
+  font-family: 'Niramit', "Arial", sans-serif;
 }
 
 header {
@@ -10,17 +10,17 @@ header {
 }
 
 .contacts {
-  top: 2%;
   position: relative;
+  top: 2%;
   left: 5%;
   min-width: 270px;
 }
 
 #name {
-  font-weight: bold;
-  text-align: left;
   padding-left: 2px;
+  font-weight: bold;
   font-size: 1.5em;
+  text-align: left;
 }
 
 th {
@@ -36,7 +36,6 @@ a {
   position: absolute;
   top: 0;
   right: 5%;
-  max-height: 200px;
   border: 1px solid gray;
   box-sizing: border-box;
 }
@@ -45,8 +44,12 @@ a {
   background-color: rgba(240, 128, 128, 0.5);
 }
 
+.answer {
+  font-size: 0.9em;
+}
+
 .work th {
-  min-width: 80px;
+  min-width: 90px;
 }
 
 main {
@@ -55,4 +58,8 @@ main {
 
 ol {
   padding-left: 25px; 
+}
+
+h3 {
+  padding: 0 0 2px 2px;
 }
