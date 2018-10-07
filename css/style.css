@@ -1,6 +1,7 @@
 .box {
   max-width: 1024px;
   position: relative;
+  margin: 0 auto;
 }
 
 header {
@@ -41,4 +42,12 @@ a {
 
 .question {
     background-color: rgba(240, 128, 128, 0.5);
+}
+
+.work th {
+    min-width: 80px;
+}
+
+main {
+    padding: 1% 0 3% 0;
 }
