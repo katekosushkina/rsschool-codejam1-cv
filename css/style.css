@@ -1,0 +1,40 @@
+.box {
+    max-width: 1024px;
+    position: relative;
+  }
+  
+  header {
+    height: 200px;
+  }
+  
+  .contacts {
+    top: 2%;
+    position: relative;
+    left: 5%;
+    min-width: 270px;
+  }
+  
+  #name {
+    font-weight: bold;
+    text-align: left;
+    padding-left: 2px;
+    font-size: 1.5em;
+  }
+  
+  th {
+    text-align: left;
+  }
+  
+  .contacts a {
+    color: #F08080;
+    text-decoration: none;
+  }
+  
+  #kkphoto {
+    position: absolute;
+    top: 0;
+    right: 5%;
+    max-height: 200px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+  }
